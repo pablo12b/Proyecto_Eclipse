@@ -35,7 +35,8 @@
          <property name="javax.persistence.schema-generation.drop-source" value="metadata"/>
 
          <!-- Properties for Hibernate -->
-         <property name="hibernate.show_sql" value="true" />
+         <property name="hibernate.show_sql" value="True" />
+		 <property name="hibernate.format_sql" value="True" />
       </properties>
    </persistence-unit>
 </persistence>
